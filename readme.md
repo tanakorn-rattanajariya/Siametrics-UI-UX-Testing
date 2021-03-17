@@ -89,9 +89,16 @@ tasks = [
 ];
 ```
 
+##Persona
+1. Mr. Sukrit Wongsa. 
+1. Age 42 years old.
+1. Slightly familiar with some applications, he only use phone for calling and a little bit chatting on messenger.
+1. He have worked as driver for entire of life.
+1. He lives in Bangkok.
+
+
 
 ## Submission
 1. Reports of User Research, Competitor Research.
 1. Journey map, Wireframe Design, UI Design.
 
-## Good luck !!
