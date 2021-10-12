@@ -29,6 +29,6 @@
 - User story 
 - User Journey
 2. Competitive rsearch
-3. Wireframe (High-fidility)
-4. UI (Low-fidility)
+3. Wireframe (High-fidelity)
+4. UI (Low-fidelity)
 
