@@ -1,104 +1,34 @@
-# Siametrics UX/UI Testing
+# Vialink UX/UI Testing
 
 ## Requirements
 
-1. Build a **Mobile Transportation Management System** for Driver.
-1. The key feature is Manage Driver Task.
-1. One day task of driver could be picking up box at warehouse, droping box at Distribution center, picking up box at Distribution center, droping box at Customer house, and Verifying by customer signing on Driver phone.
-1. Every steps of picking or droping, the driver must scans all boxs for confirming of box reception.
-1. Example of tasks in 1 day 
-```
-tasks = [
-  {
-    number_of_box: 10,
-    location: {
-      lat: 100.123123,
-      lng: 23.231233,
-      name: "A",
-      type: "WAREHOUSE",
-    },
-    type: "PICK",
-    time: "10:00",
-  },
-  {
-    number_of_box: 15,
-    location: {
-      lat: 101.123123,
-      lng: 24.231233,
-      name: "B",
-      type: "WAREHOUSE",
-    },
-    type: "PICK",
-    time: "10:30",
-  },
-  {
-    number_of_box: 5,
-    location: {
-      lat: 101.123123,
-      lng: 25.231233,
-      name: "C",
-      type: "WAREHOUSE",
-    },
-    type: "PICK",
-    time: "10:40",
-  },
-  {
-    number_of_box: 10,
-    location: {
-      lat: 100.323123,
-      lng: 25.231233,
-      name: "D",
-      type: "DC",
-    },
-    type: "DROP",
-    time: "11:00",
-  },
-  {
-    number_of_box: 5,
-    location: {
-      lat: 100.323123,
-      lng: 25.231233,
-      name: "D",
-      type: "DC",
-    },
-    type: "PICK",
-    time: "11:10",
-  },
-  {
-    number_of_box: 20,
-    location: {
-      lat: 102.323123,
-      lng: 27.231233,
-      name: "E",
-      type: "DC",
-    },
-    type: "DROP",
-    time: "12:00",
-  },
-  {
-    number_of_box: 5,
-    location: {
-      lat: 100.323123,
-      lng: 25.231233,
-      name: "F",
-      type: "DC",
-    },
-    type: "DROP",
-    time: "14:00",
-  },
-];
-```
-
-##Persona
-1. Mr. Sukrit Wongsa. 
-1. Age 42 years old.
-1. Slightly familiar with some applications, he only use phone for calling and a little bit chatting on messenger.
-1. He have worked as driver for entire of life.
-1. He lives in Bangkok.
+1. Create Mobile Stock management for suplier				
+2. User can create product for inserting into their stock. Able to create transportation order, and able to see inbound and outbound details for each order in 1 week.			
+3. Have a very nice dashboard to see all details for each product, for example number of product in stock, number of inbound, number of out bound.
 
 
+## Example Information
+##### 1. Product
+ - Wagyu Beef:	1000	pack
+ - Price/Unit:	500	Baht/pack
+ - Volumn/Unit:	250	g/pack
+ - Type: Raw	
+ - Category: Freeze	
+##### 2. Order		
+ - Receiver: Somrak Ramruay
+ - Shop: Fresh Meat
+ - Location: 78 ซอย สุขุมวิท 63 แขวง พระโขนงเหนือ เขตวัฒนา กรุงเทพมหานคร 10110		
+- Telephone:	-	
+- Product:	Wagyu Beef	40	pack
+- COD: 870 Baht		
 
 ## Submission
-1. Reports of User Research, Competitor Research.
-1. Journey map, Wireframe Design, UI Design.
+
+1. User research
+- Persona
+- User story 
+- User Journey
+2. Competitive rsearch
+3. Wireframe (High-fidility)
+4. UI (Low-fidility)
 
